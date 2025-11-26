@@ -12,5 +12,5 @@ For Windows, please download the "Ashveil.exe".
 
 For MacOS, please download "Ashveil".
 
-For Linux, please downloand "Ashveil_linux"
+For Linux, please download "Ashveil_linux". 
 #Note, not too familiar with Linux but hopefully this can run on all distros.
