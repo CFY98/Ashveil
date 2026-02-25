@@ -40,8 +40,8 @@ Prerequisites
 - An active internet connection (trivia questions are fetched live)
 
 # Installation
-> git clone https://github.com/yourusername/cycles-end.git
-  cd cycles-end
+git clone https://github.com/yourusername/cycles-end.git
+cd cycles-end
 
 - For Windows, please download the "Ashveil.exe".
 - For MacOS, please download "Ashveil".
@@ -58,7 +58,7 @@ Prerequisites
   └── README.md
 
 # 🌐 Trivia Source
-Questions are fetched live from the OpenTriviaQA dataset (general category). An internet connection is required to play.
+Questions are fetched live from the [OpenTriviaQA dataset]([url](https://rawcdn.githack.com/uberspot/OpenTriviaQA/master/categories/general)) (general category). An internet connection is required to play.
 
 # 🛠️ Known Limitations
 
