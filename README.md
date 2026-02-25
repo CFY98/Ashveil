@@ -1,6 +1,6 @@
+# Ashveil
 A text-based RPG set in the fictional world of Ashveil. The player must pass three levels and make choices to determine the outcome of the story. The game features a trivia-based combat system influenced by Game Shows. Enjoy~
 
-Team
 - Project Manager - CN
 - Head Developer - CFY
   
@@ -40,7 +40,7 @@ cd cycles-end
 - For Windows, please download the "Ashveil.exe".
 - For MacOS, please download "Ashveil".
 - For Linux, please download "Ashveil_linux". 
-# Not too familiar with Linux but hopefully this can run on all distros.
+#Not too familiar with Linux but hopefully this can run on all distros.
 
 Running the game
 python main.py
