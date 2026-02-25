@@ -3,6 +3,7 @@ A text-based RPG set in the fictional world of Ashveil. The player must pass thr
 
 ## Team
 > Project Manager: CN
+
 > Head Developer: CFY
   
 ## 📖 Story Overview
@@ -64,15 +65,21 @@ Ashveil/
 ├── main.py          # All game logic, combat, narrative, and mechanics
 └── README.md
 ```
+## ⛏️ Built With
+- **Python**: Utilised loops, exceptions, match cases, conditional statements, dictionaries and libraries.
+- **Python Modules**:
+> random
+  urllib.request
+  re
+  collections from Counter
 
 ## 🌐 Trivia Source
 Questions are fetched live from the [OpenTriviaQA dataset](https://rawcdn.githack.com/uberspot/OpenTriviaQA/master/categories/general) (general category). An internet connection is required to play.
 
 ## 🛠️ Known Limitations
-
-Health cannot exceed 100 (potions may overheal beyond the visual bar)
-The game has no save system — each session starts fresh
-Terminal colour support requires a compatible console (works on macOS, Linux, and Windows Terminal)
+- Health cannot exceed 100 (potions may overheal beyond the visual bar)
+- The game has no save system — each session starts fresh
+- Terminal colour support requires a compatible console (works on macOS, Linux, and Windows Terminal)
 
 ## 📄 License
 This project is licensed under the [MIT License](https://github.com/CFY98/CodeNation-Ashveil-Text-based-Python-Game/blob/main/LICENSE).
