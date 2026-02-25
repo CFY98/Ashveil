@@ -1,10 +1,11 @@
 # Ashveil
 A text-based RPG set in the fictional world of Ashveil. The player must pass three levels and make choices to determine the outcome of the story. The game features a trivia-based combat system influenced by Game Shows. Enjoy~
 
-- Project Manager - CN
-- Head Developer - CFY
+## Team
+> Project Manager - CN
+  Head Developer - CFY
   
-# 📖 Story Overview
+## 📖 Story Overview
 Your adventure begins in a sleepy inn at the edge of a small village. From there, you'll navigate morally complex encounters, rescue a kidnapped princess, and ultimately face a climactic battle at the foot of an erupting volcano. But the path you take — and the choices you make — will shape the ending you deserve.
 
 ```
@@ -19,7 +20,7 @@ Inn (Character Creation)
                           └── Bad Ending: Fight the King 👑
 ```
 
-# ✨ Features
+## ✨ Features
 
 - Procedurally generated names — kings, wizards, princesses, villages, and towns are randomly generated each playthrough
 - Karma system — your choices throughout the game silently shift your alignment, determining the final battle and ending
@@ -29,19 +30,19 @@ Inn (Character Creation)
 - ASCII art titles — stylised banners for each level, game start, and both endings
 - Multiple branching paths — decisions in Level One and Two lead to different encounters and alter the ending
 
-# ⚔️ Combat System
+## ⚔️ Combat System
 Combat is trivia-based. Each round, you:
 - Choose to Fight or Use Item
 - If you fight, a multiple-choice trivia question is displayed
 - Answer correctly → deal random damage (1–100) to the enemy
 - Answer incorrectly → take that damage yourself
 
-# 🎮 How to Play
+## 🎮 How to Play
 Prerequisites
 - Python 3.10 or higher (required for match/case syntax)
 - An active internet connection (trivia questions are fetched live)
 
-# Installation
+## Installation
 ```
 git clone https://github.com/yourusername/cycles-end.git
 cd cycles-end
@@ -52,7 +53,7 @@ cd cycles-end
 - For Linux, please download "Ashveil_linux". 
 #Not too familiar with Linux but hopefully this can run on all distros.
 
-# Running the game
+## Running the game
 ```
 python main.py
 ```
@@ -64,14 +65,14 @@ Ashveil/
 └── README.md
 ```
 
-# 🌐 Trivia Source
+## 🌐 Trivia Source
 Questions are fetched live from the [OpenTriviaQA dataset](https://rawcdn.githack.com/uberspot/OpenTriviaQA/master/categories/general) (general category). An internet connection is required to play.
 
-# 🛠️ Known Limitations
+## 🛠️ Known Limitations
 
 Health cannot exceed 100 (potions may overheal beyond the visual bar)
 The game has no save system — each session starts fresh
 Terminal colour support requires a compatible console (works on macOS, Linux, and Windows Terminal)
 
-# 📄 License
-This project is licensed under the MIT License.
+## 📄 License
+This project is licensed under the [MIT License](https://github.com/CFY98/CodeNation-Ashveil-Text-based-Python-Game/blob/main/LICENSE).
