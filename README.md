@@ -83,4 +83,4 @@ Questions are fetched live from the [OpenTriviaQA dataset](https://rawcdn.githac
 - Terminal colour support requires a compatible console (works on macOS, Linux, and Windows Terminal)
 
 ## 📄 License
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
