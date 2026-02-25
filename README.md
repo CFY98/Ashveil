@@ -66,15 +66,13 @@ Ashveil/
 └── README.md
 ```
 ## ⛏️ Built With
-**Python**: Utilised loops, exceptions, match cases, conditional statements, dictionaries and libraries.
-**Python Modules**
-> random
+- **Python 3.10+**
+- `random` — procedural name and damage generation
+- `urllib.request` — fetching live trivia questions
+- `re` — parsing trivia question formatting
+- `collections.Counter` — inventory display
 
-> urllib.request
-
-> re
-
-> collections from Counter
+No third-party packages required.
 
 ## 🌐 Trivia Source
 Questions are fetched live from the [OpenTriviaQA dataset](https://rawcdn.githack.com/uberspot/OpenTriviaQA/master/categories/general) (general category). An internet connection is required to play.
