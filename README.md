@@ -75,7 +75,8 @@ Ashveil/
 No third-party packages required.
 
 ## 🌐 Trivia Source
-Questions are fetched live from the [OpenTriviaQA dataset](https://rawcdn.githack.com/uberspot/OpenTriviaQA/master/categories/general) (general category). An internet connection is required to play.
+- Questions are fetched live from the [OpenTriviaQA dataset](https://rawcdn.githack.com/uberspot/OpenTriviaQA/master/categories/general) (general category).
+- An internet connection is required to play.
 
 ## 🛠️ Known Limitations
 - Health cannot exceed 100 (potions may overheal beyond the visual bar)
