@@ -66,8 +66,8 @@ Ashveil/
 └── README.md
 ```
 ## ⛏️ Built With
-- **Python**: Utilised loops, exceptions, match cases, conditional statements, dictionaries and libraries.
-- **Python Modules**:
+**Python**: Utilised loops, exceptions, match cases, conditional statements, dictionaries and libraries.
+**Python Modules**
 > random
 
 > urllib.request
