@@ -53,8 +53,9 @@ cd cycles-end
 #Not too familiar with Linux but hopefully this can run on all distros.
 
 # Running the game
-> python main.py
-
+```
+python main.py
+```
 # Project Structure
 ```
 Ashveil/
