@@ -7,15 +7,17 @@ A text-based RPG set in the fictional world of Ashveil. The player must pass thr
 # 📖 Story Overview
 Your adventure begins in a sleepy inn at the edge of a small village. From there, you'll navigate morally complex encounters, rescue a kidnapped princess, and ultimately face a climactic battle at the foot of an erupting volcano. But the path you take — and the choices you make — will shape the ending you deserve.
 
-> Inn (Character Creation)
-   └── Level One: Village
-        ├── Speak with the Lord → fight a bandit or flee
-        └── Speak with the Bandit → help steal or fight him
-             └── Level Two: Station & Castle
-                  └── Throne Room → Accept or Deny the King's Quest
-                       └── Level Three: Mountain → Wizard's Lair → Volcano
-                            ├── Good Ending: Slay the Dragon 🐉
-                            └── Bad Ending: Fight the King 👑
+```
+Inn (Character Creation)
+ └── Level One: Village
+      ├── Speak with the Lord → fight a bandit or flee
+      └── Speak with the Bandit → help steal or fight him
+           └── Level Two: Station & Castle
+                └── Throne Room → Accept or Deny the King's Quest
+                     └── Level Three: Mountain → Wizard's Lair → Volcano
+                          ├── Good Ending: Slay the Dragon 🐉
+                          └── Bad Ending: Fight the King 👑
+```
 
 # ✨ Features
 
@@ -40,8 +42,10 @@ Prerequisites
 - An active internet connection (trivia questions are fetched live)
 
 # Installation
+```
 git clone https://github.com/yourusername/cycles-end.git
 cd cycles-end
+```
 
 - For Windows, please download the "Ashveil.exe".
 - For MacOS, please download "Ashveil".
@@ -52,13 +56,15 @@ cd cycles-end
 > python main.py
 
 # Project Structure
-> Ashveil/
-  │
-  ├── main.py          # All game logic, combat, narrative, and mechanics
-  └── README.md
+```
+Ashveil/
+│
+├── main.py          # All game logic, combat, narrative, and mechanics
+└── README.md
+```
 
 # 🌐 Trivia Source
-Questions are fetched live from the [OpenTriviaQA dataset]([url](https://rawcdn.githack.com/uberspot/OpenTriviaQA/master/categories/general)) (general category). An internet connection is required to play.
+Questions are fetched live from the [OpenTriviaQA dataset](https://rawcdn.githack.com/uberspot/OpenTriviaQA/master/categories/general) (general category). An internet connection is required to play.
 
 # 🛠️ Known Limitations
 
