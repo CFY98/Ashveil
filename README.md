@@ -69,9 +69,12 @@ Ashveil/
 - **Python**: Utilised loops, exceptions, match cases, conditional statements, dictionaries and libraries.
 - **Python Modules**:
 > random
-  urllib.request
-  re
-  collections from Counter
+
+> urllib.request
+
+> re
+
+> collections from Counter
 
 ## 🌐 Trivia Source
 Questions are fetched live from the [OpenTriviaQA dataset](https://rawcdn.githack.com/uberspot/OpenTriviaQA/master/categories/general) (general category). An internet connection is required to play.
