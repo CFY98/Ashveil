@@ -7,15 +7,15 @@ A text-based RPG set in the fictional world of Ashveil. The player must pass thr
 # 📖 Story Overview
 Your adventure begins in a sleepy inn at the edge of a small village. From there, you'll navigate morally complex encounters, rescue a kidnapped princess, and ultimately face a climactic battle at the foot of an erupting volcano. But the path you take — and the choices you make — will shape the ending you deserve.
 
-Inn (Character Creation)
- └── Level One: Village
-      ├── Speak with the Lord → fight a bandit or flee
-      └── Speak with the Bandit → help steal or fight him
-           └── Level Two: Station & Castle
-                └── Throne Room → Accept or Deny the King's Quest
-                     └── Level Three: Mountain → Wizard's Lair → Volcano
-                          ├── Good Ending: Slay the Dragon 🐉
-                          └── Bad Ending: Fight the King 👑
+> Inn (Character Creation)
+   └── Level One: Village
+        ├── Speak with the Lord → fight a bandit or flee
+        └── Speak with the Bandit → help steal or fight him
+             └── Level Two: Station & Castle
+                  └── Throne Room → Accept or Deny the King's Quest
+                       └── Level Three: Mountain → Wizard's Lair → Volcano
+                            ├── Good Ending: Slay the Dragon 🐉
+                            └── Bad Ending: Fight the King 👑
 
 # ✨ Features
 
@@ -26,6 +26,13 @@ Inn (Character Creation)
 - Health bars — colour-coded, dynamic health bars for both player and enemies
 - ASCII art titles — stylised banners for each level, game start, and both endings
 - Multiple branching paths — decisions in Level One and Two lead to different encounters and alter the ending
+
+# ⚔️ Combat System
+Combat is trivia-based. Each round, you:
+- Choose to Fight or Use Item
+- If you fight, a multiple-choice trivia question is displayed
+- Answer correctly → deal random damage (1–100) to the enemy
+- Answer incorrectly → take that damage yourself
 
 # 🎮 How to Play
 Prerequisites
@@ -44,18 +51,11 @@ cd cycles-end
 # Running the game
 python main.py
 
-# ⚔️ Combat System
-Combat is trivia-based. Each round, you:
-- Choose to Fight or Use Item
-- If you fight, a multiple-choice trivia question is displayed
-- Answer correctly → deal random damage (1–100) to the enemy
-- Answer incorrectly → take that damage yourself
-
 # Project Structure
-Ashveil/
-│
-├── main.py          # All game logic, combat, narrative, and mechanics
-└── README.md
+> Ashveil/
+  │
+  ├── main.py          # All game logic, combat, narrative, and mechanics
+  └── README.md
 
 # 🌐 Trivia Source
 Questions are fetched live from the OpenTriviaQA dataset (general category). An internet connection is required to play.
