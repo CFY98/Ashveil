@@ -23,13 +23,13 @@ Inn (Character Creation)
 
 ## ✨ Features
 
-- Procedurally generated names — kings, wizards, princesses, villages, and towns are randomly generated each playthrough
-- Karma system — your choices throughout the game silently shift your alignment, determining the final battle and ending
-- Turn-based combat — fight enemies by answering trivia questions fetched live from an open-source trivia database
-- Inventory system — collect and use potions (restore health) and poison (damage over time across multiple turns)
-- Health bars — colour-coded, dynamic health bars for both player and enemies
-- ASCII art titles — stylised banners for each level, game start, and both endings
-- Multiple branching paths — decisions in Level One and Two lead to different encounters and alter the ending
+- **Procedurally generated names** — kings, wizards, princesses, villages, and towns are randomly generated each playthrough
+- **Karma system** — your choices throughout the game silently shift your alignment, determining the final battle and ending
+- **Turn-based combat** — fight enemies by answering trivia questions fetched live from an open-source trivia database
+- **Inventory system** — collect and use potions (restore health) and poison (damage over time across multiple turns)
+- **Health bars** — colour-coded, dynamic health bars for both player and enemies
+- **ASCII art titles** — stylised banners for each level, game start, and both endings
+- **Multiple branching paths** — decisions in Level One and Two lead to different encounters and alter the ending
 
 ## ⚔️ Combat System
 Combat is trivia-based. Each round, you:
