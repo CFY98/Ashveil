@@ -45,7 +45,7 @@ Prerequisites
 
 ## Installation
 ```
-git clone https://github.com/yourusername/cycles-end.git
+git clone https://github.com/CFY98/CodeNation-Ashveil-Text-based-Python-Game.git
 cd cycles-end
 ```
 
