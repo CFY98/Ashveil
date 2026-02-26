@@ -48,12 +48,6 @@ Prerequisites
 git clone https://github.com/CFY98/CodeNation-Ashveil-Text-based-Python-Game.git
 cd cycles-end
 ```
-
-- For Windows, please download the "Ashveil.exe".
-- For MacOS, please download "Ashveil".
-- For Linux, please download "Ashveil_linux". 
-#Not too familiar with Linux but hopefully this can run on all distros.
-
 ## Running the game
 ```
 python main.py
@@ -62,8 +56,9 @@ python main.py
 ```
 Ashveil/
 │
-├── main.py          # All game logic, combat, narrative, and mechanics
-└── README.md
+├── ashveil.py          # All game logic, combat, narrative, and mechanics
+├── LICENSE
+└── README.md           # This file
 ```
 ## ⛏️ Built With
 - **Python 3.10+**
