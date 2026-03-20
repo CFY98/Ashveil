@@ -51,7 +51,7 @@ Prerequisites
 
 ```
 git clone https://github.com/CFY98/CodeNation-Ashveil-Text-based-Python-Game.git
-cd ashveil
+cd Ashveil-main
 ```
 
 ## Running the game
