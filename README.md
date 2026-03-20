@@ -59,6 +59,20 @@ Prerequisites
 
 # Project Structure
 
+```
+Ashveil/
+│
+├── main.py          # All game logic, combat, narrative, and mechanics
+└── README.md
+```
+
+## ⛏️ Built With
+
+**Python**: Utilised loops, exceptions, match cases, conditional statements, dictionaries and libraries.
+**Python Modules**
+
+> random
+
 > Ashveil/
 > │
 > ├── main.py # All game logic, combat, narrative, and mechanics
