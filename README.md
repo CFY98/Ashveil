@@ -47,17 +47,13 @@ Prerequisites
 
 # Installation
 
-git clone https://github.com/yourusername/cycles-end.git
-cd cycles-end
+> git clone https://github.com/yourusername/cycles-end.git
+> cd cycles-end
 
 - For Windows, please download the "Ashveil.exe".
 - For MacOS, please download "Ashveil".
 - For Linux, please download "Ashveil_linux".
   #Not too familiar with Linux but hopefully this can run on all distros.
-
-# Running the game
-
-python main.py
 
 # Project Structure
 
