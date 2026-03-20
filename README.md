@@ -2,10 +2,12 @@
 
 A text-based RPG set in the fictional world of Ashveil. The player must pass three levels and make choices to determine the outcome of the story. The game features a trivia-based combat system influenced by Game Shows. Enjoy~
 
-- Project Manager - CN
-- Head Developer - CFY
+## Team
 
-# 📖 Story Overview
+> Project Manager - CN
+> Head Developer - CFY
+
+## 📖 Story Overview
 
 Your adventure begins in a sleepy inn at the edge of a small village. From there, you'll navigate morally complex encounters, rescue a kidnapped princess, and ultimately face a climactic battle at the foot of an erupting volcano. But the path you take — and the choices you make — will shape the ending you deserve.
 
