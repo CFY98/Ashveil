@@ -29,6 +29,15 @@ Inn (Character Creation)
 - ASCII art titles — stylised banners for each level, game start, and both endings
 - Multiple branching paths — decisions in Level One and Two lead to different encounters and alter the ending
 
+# ⚔️ Combat System
+
+Combat is trivia-based. Each round, you:
+
+- Choose to Fight or Use Item
+- If you fight, a multiple-choice trivia question is displayed
+- Answer correctly → deal random damage (1–100) to the enemy
+- Answer incorrectly → take that damage yourself
+
 # 🎮 How to Play
 
 Prerequisites
@@ -50,21 +59,12 @@ cd cycles-end
 
 python main.py
 
-# ⚔️ Combat System
-
-Combat is trivia-based. Each round, you:
-
-- Choose to Fight or Use Item
-- If you fight, a multiple-choice trivia question is displayed
-- Answer correctly → deal random damage (1–100) to the enemy
-- Answer incorrectly → take that damage yourself
-
 # Project Structure
 
-Ashveil/
-│
-├── main.py # All game logic, combat, narrative, and mechanics
-└── README.md
+> Ashveil/
+> │
+> ├── main.py # All game logic, combat, narrative, and mechanics
+> └── README.md
 
 # 🌐 Trivia Source
 
