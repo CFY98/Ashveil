@@ -8,4 +8,10 @@ Head Developer - CFY
 
 ##DOWNLOADS##
 
+<<<<<<< HEAD
 For Windows, please download the .exe file.
+=======
+For Windows, please download the "Ashveil.exe".
+
+For MacOS, please download "Ashveil".
+>>>>>>> d0e8a64 (Add MacOS download instructions to README)
