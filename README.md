@@ -88,6 +88,6 @@ Health cannot exceed 100 (potions may overheal beyond the visual bar)
 The game has no save system — each session starts fresh
 Terminal colour support requires a compatible console (works on macOS, Linux, and Windows Terminal)
 
-# 📄 License
+## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
