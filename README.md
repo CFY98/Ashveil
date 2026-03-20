@@ -4,22 +4,28 @@ A text-based RPG set in the fictional world of Ashveil. The player must pass thr
 
 ## Team
 
-> Project Manager - CN
-> Head Developer - CFY
+> Project Manager: CN
+
+> Head Developer: CFY
 
 ## 📖 Story Overview
 
 Your adventure begins in a sleepy inn at the edge of a small village. From there, you'll navigate morally complex encounters, rescue a kidnapped princess, and ultimately face a climactic battle at the foot of an erupting volcano. But the path you take — and the choices you make — will shape the ending you deserve.
 
+```
+
 Inn (Character Creation)
-└── Level One: Village
-├── Speak with the Lord → fight a bandit or flee
-└── Speak with the Bandit → help steal or fight him
-└── Level Two: Station & Castle
-└── Throne Room → Accept or Deny the King's Quest
-└── Level Three: Mountain → Wizard's Lair → Volcano
-├── Good Ending: Slay the Dragon 🐉
-└── Bad Ending: Fight the King 👑
+   ├── Level One: Village
+   |     ├── Speak with the Lord → fight a bandit or flee
+   |     └── Speak with the Bandit → help steal or fight him
+   └── Level Two: Station & Castle
+   |     └── Throne Room → Accept or Deny the King's Quest
+   |           └── Wizard/Royal Guard
+   └── Level Three: Volcano
+         ├── Good Ending: Slay the Dragon 🐉
+         └── Bad Ending: Fight the King 👑
+
+```
 
 # ✨ Features
 
@@ -31,7 +37,7 @@ Inn (Character Creation)
 - ASCII art titles — stylised banners for each level, game start, and both endings
 - Multiple branching paths — decisions in Level One and Two lead to different encounters and alter the ending
 
-# ⚔️ Combat System
+## ⚔️ Combat System
 
 Combat is trivia-based. Each round, you:
 
@@ -40,7 +46,7 @@ Combat is trivia-based. Each round, you:
 - Answer correctly → deal random damage (1–100) to the enemy
 - Answer incorrectly → take that damage yourself
 
-# 🎮 How to Play
+## 🎮 How to Play
 
 Prerequisites
 
@@ -51,7 +57,7 @@ Prerequisites
 
 ```
 git clone https://github.com/CFY98/CodeNation-Ashveil-Text-based-Python-Game.git
-cd Ashveil-main
+cd ashveil
 ```
 
 ## Running the game
@@ -66,30 +72,31 @@ python ashveil.py
 Ashveil/
 │
 ├── main.py          # All game logic, combat, narrative, and mechanics
+├── LICENSE
 └── README.md
 ```
 
 ## ⛏️ Built With
 
+- **Python 3.10+**
+- `random` — procedural name and damage generation
+- `urllib.request` — fetching live trivia questions
+- `re` — parsing trivia question formatting
+- `collections.Counter` — inventory display
+
 **Python**: Utilised loops, exceptions, match cases, conditional statements, dictionaries and libraries.
 **Python Modules**
 
-> random
+## 🌐 Trivia Source
 
-> Ashveil/
-> │
-> ├── main.py # All game logic, combat, narrative, and mechanics
-> └── README.md
+- Questions are fetched live from the [OpenTriviaQA dataset](https://rawcdn.githack.com/uberspot/OpenTriviaQA/master/categories/general) (general category).
+- An internet connection is required to play.
 
-# 🌐 Trivia Source
+## 🛠️ Known Limitations
 
-Questions are fetched live from the OpenTriviaQA dataset (general category). An internet connection is required to play.
-
-# 🛠️ Known Limitations
-
-Health cannot exceed 100 (potions may overheal beyond the visual bar)
-The game has no save system — each session starts fresh
-Terminal colour support requires a compatible console (works on macOS, Linux, and Windows Terminal)
+- Health cannot exceed 100 (potions may overheal beyond the visual bar)
+- The game has no save system — each session starts fresh
+- Terminal colour support requires a compatible console (works on macOS, Linux, and Windows Terminal)
 
 ## 📄 License
 
