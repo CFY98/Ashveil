@@ -51,13 +51,14 @@ Prerequisites
 
 ```
 git clone https://github.com/CFY98/CodeNation-Ashveil-Text-based-Python-Game.git
-cd cycles-end
+cd ashveil
 ```
 
-- For Windows, please download the "Ashveil.exe".
-- For MacOS, please download "Ashveil".
-- For Linux, please download "Ashveil_linux".
-  #Not too familiar with Linux but hopefully this can run on all distros.
+## Running the game
+
+```
+python ashveil.py
+```
 
 # Project Structure
 
