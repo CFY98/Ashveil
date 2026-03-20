@@ -47,10 +47,12 @@ Prerequisites
 - Python 3.10 or higher (required for match/case syntax)
 - An active internet connection (trivia questions are fetched live)
 
-# Installation
+## Installation
 
-> git clone https://github.com/yourusername/cycles-end.git
-> cd cycles-end
+```
+git clone https://github.com/CFY98/CodeNation-Ashveil-Text-based-Python-Game.git
+cd cycles-end
+```
 
 - For Windows, please download the "Ashveil.exe".
 - For MacOS, please download "Ashveil".
